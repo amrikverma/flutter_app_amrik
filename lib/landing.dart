@@ -34,7 +34,7 @@ class _LandingPageState extends State<LandingPage> {
           IconButton(
             icon: const Icon(Icons.logout_outlined),
             onPressed: () {
-              authenticationProvider.signOut();
+              authenticationProvider.signOut()
             }
           )
         ],
